@@ -30,12 +30,16 @@ cookie_consent: false                                   # To respect the usage o
 color_theme: auto                                       # auto, dark or light
 
 # Comments
-comments:
-  disqus_shortname:                                     # Your discus shortname for comments
-  cusdis_app_id:                                        # Your cusdis data-app-id
-  utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
-    repo:                                               # your public comments repository (e.g. owner/repo)
-    issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)
+comment:
+    provider: "disqus"
+    disqus:
+        shortname: "cosmos-jy"
+# comments:
+#   disqus_shortname:  cosmos-jy                          # Your discus shortname for comments
+#   cusdis_app_id:                                        # Your cusdis data-app-id
+#   utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
+#     repo:                                               # your public comments repository (e.g. owner/repo)
+#     issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)
 
 # PAGINATION
 paginate: 5
